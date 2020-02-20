@@ -1,0 +1,75 @@
+﻿Build started 07/12/2016 00:16:49.
+     1>Project "D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Zombie Invasion\Zombie Invasion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SDL2\SDL2-2.0.4\include" /I"C:\SDL2\SDL2_image-2.0.1\include" /I"C:\SDL2\SDL2_ttf-2.0.14\include" /I"C:\SDL2\SDL2_mixer-2.0.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cGame.cpp
+         cGame.cpp
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.h(84): warning C4351: new behavior: elements of array 'cGame::randNum' will be default initialized
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(233): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(350): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(361): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(365): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(366): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(372): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(377): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(711): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(811): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\weema\documents\visual studio\zombie invasion - final\zombie invasion\cgame.cpp(814): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\Zombie Invasion.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SDL2\SDL2-2.0.4\lib\x86" /LIBPATH:"C:\SDL2\SDL2_image-2.0.1\lib\x86" /LIBPATH:"C:\SDL2\SDL2_ttf-2.0.14\lib\x86" /LIBPATH:"C:\SDL2\SDL2_mixer-2.0.1\lib\x86" sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\Zombie Invasion.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\Zombie Invasion.lib" /MACHINE:X86 Debug\AsteroidsSDL.obj
+         Debug\cAsteroid.obj
+         Debug\cBkGround.obj
+         Debug\cBullet.obj
+         Debug\cButton.obj
+         Debug\cButtonMgr.obj
+         Debug\cFileHandler.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cGame.obj
+         Debug\cRocket.obj
+         Debug\cSDL2WNDManager.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSprite.obj
+         Debug\cTexture.obj
+         Debug\cTextureMgr.obj
+         Zombie Invasion.vcxproj -> D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\Zombie Invasion.exe
+       PostBuildEvent:
+         echo copying SDL2.dll to debug directory
+         xcopy /Y "C:\SDL2\SDL2-2.0.4\lib\x86\SDL2.dll" "D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\"
+         xcopy /Y "C:\SDL2\SDL2_image-2.0.1\lib\x86\*.dll" "D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\"
+         xcopy /Y "C:\SDL2\SDL2_ttf-2.0.14\lib\x86\*.dll" "D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\"
+         xcopy /Y "C:\SDL2\SDL2_mixer-2.0.1\lib\x86\*.dll" "D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Debug\"
+         :VCEnd
+         copying SDL2.dll to debug directory
+         C:\SDL2\SDL2-2.0.4\lib\x86\SDL2.dll
+         1 File(s) copied
+         C:\SDL2\SDL2_image-2.0.1\lib\x86\libjpeg-9.dll
+         C:\SDL2\SDL2_image-2.0.1\lib\x86\libpng16-16.dll
+         C:\SDL2\SDL2_image-2.0.1\lib\x86\libtiff-5.dll
+         C:\SDL2\SDL2_image-2.0.1\lib\x86\libwebp-4.dll
+         C:\SDL2\SDL2_image-2.0.1\lib\x86\SDL2_image.dll
+         C:\SDL2\SDL2_image-2.0.1\lib\x86\zlib1.dll
+         6 File(s) copied
+         C:\SDL2\SDL2_ttf-2.0.14\lib\x86\libfreetype-6.dll
+         C:\SDL2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.dll
+         C:\SDL2\SDL2_ttf-2.0.14\lib\x86\zlib1.dll
+         3 File(s) copied
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\libFLAC-8.dll
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\libmodplug-1.dll
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\libogg-0.dll
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\libvorbis-0.dll
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\libvorbisfile-3.dll
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\SDL2_mixer.dll
+         C:\SDL2\SDL2_mixer-2.0.1\lib\x86\smpeg2.dll
+         7 File(s) copied
+     1>Done Building Project "D:\WeeMa\Documents\Visual Studio\Zombie Invasion - Final\Zombie Invasion\Zombie Invasion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.67
